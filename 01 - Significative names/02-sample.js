@@ -1,7 +1,7 @@
-let a = true;
+let acesso = true;
 
-function verAc(u) {
-    if (a && u.isAdmin) {
+function verificarAcesso(u) {
+    if (acesso && u.isAdmin) {
         console.log("Acesso permitido ao administrador.");
     } else {
         console.log("Acesso negado.");
@@ -9,4 +9,4 @@ function verAc(u) {
 }
 
 let u = { nome: "João", admin: true };
-verAc(u);
+verificarAcesso(u);
