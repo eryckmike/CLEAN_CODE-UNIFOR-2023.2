@@ -1,6 +1,6 @@
-let nU = "Pedro";
-let iA = 25;
-let iU = true;
+let nomeUsuario = "Pedro";
+let idadeUsuario = 25;
+let atividadeFuncionario = true;
 
 function dU(nU, iA, iU) {
     if (iU) {
